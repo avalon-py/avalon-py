@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Stefano 👋</h1>
+<h1 align="center">Hoy, I'm Stefan 👋</h1>
 
 <p align="center">
 Data Science student @ BINUS University · building at the intersection of ML and quantitative finance
