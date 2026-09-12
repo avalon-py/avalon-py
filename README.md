@@ -1,64 +1,62 @@
-<h1 align="center">Hi, I'm Stefano 👋</h1>
+# Hi there, I'm Stefano Budi 👋
 
-<p align="center">
-Data Science student @ BINUS University · building at the intersection of ML and quantitative finance
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Stefano_Budi-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/stefano-budi)
+[![Email](https://img.shields.io/badge/Email-stefano.budi%40binus.ac.id-red?style=flat-square&logo=gmail)](mailto:stefano.budi@binus.ac.id)
+[![Portfolio](https://img.shields.io/badge/Portfolio-stefano--budi.vercel.app-black?style=flat-square&logo=vercel)](https://stefano-budi.vercel.app)
+
+I am an **undergraduate Computer Science student** specializing in **Data Science** at **BINUS University**. My primary technical focus lies in **quantitative finance ML, end-to-end model deployment, and time-series forecasting pipelines**.
+
+---
+
+### 🚀 Key Focus Areas & Technical Expertise
+
+* **Quantitative Finance ML:** NLP-Driven Market Prediction, Two-Stage Sign/Magnitude Modeling, Purged Time-Series CV.
+* **MLOps & Deployment:** Automated ETL (GitHub Actions), Continuous Training Pipelines, ONNX Quantization.
+* **Applied Machine Learning:** Gradient Boosting Ensembles, Spectral Clustering, Transfer Learning (FinBERT, DINOv2).
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+**Languages & Core Frameworks:**
+`Python` `SQL` `C` `Java (basic)` `R`
+
+**Data Science, ML & NLP:**
+`Scikit-learn` `XGBoost` `LightGBM` `CatBoost` `Optuna` `FinBERT` `ONNX Runtime` `Pandas` `NumPy`
+
+**Data Engineering & Backend:**
+`BeautifulSoup` `Playwright` `Supabase` `PostgreSQL` `GitHub Actions`
+
+**Developer Tools & Cloud:**
+`Git` `GitHub` `Streamlit` `AWS` `Vercel`
+
+---
+
+### 💻 Featured AI/ML Projects
+
+#### 📈 [Speech2Market — NLP-Based Market Impact Predictor](https://github.com/avalon-py/speech2market)
+> *Python, FinBERT, HistGradientBoosting, Supabase, GitHub Actions*
+* Engineered a two-stage pipeline (FinBERT embeddings → sign classifier + magnitude regressor) forecasting SPX/Gold/VIX/TNX moves at 3/7/30-day horizons.
+* Built an automated daily ETL and monthly continuous-training pipeline with quality gating, deployed via FP16 ONNX conversion under a 1GB memory constraint.
+
+#### 🏎️ [F1 Race Result Predictor — Chaos-Weighted Monte Carlo Simulation](https://github.com/avalon-py)
+> *Python, XGBoost, Optuna, Monte Carlo Simulation*
+* Built an XGBoost + Monte Carlo pipeline predicting F1 finishing order from 75 years of race data using recency-weighted, leakage-safe features.
+* Layered 1,000+ run simulations modeling DNF risk and Safety Car events, beating the grid baseline by 9.1% MAE on the 2025 held-out season.
+
+#### 🗺️ [MBG Investment Priority Mapping — Graph-Based Clustering Research](https://github.com/avalon-py)
+> *Python, Spectral Clustering, RFECV, Government Data*
+* Applied spectral clustering with a Laplacian structure to map investment priority across 38 Indonesian provinces.
+* Selected by BINUS's Computer Science faculty as presentation material at a government-run innovation exhibition (PPI BRIDA).
+
+---
+
+### 📊 GitHub Stats
+
+<p align="left">
+  <img src="https://github-stats-extended.vercel.app/api?username=avalon-py&show_icons=true&theme=tokyonight&hide_border=true" alt="Stefano's GitHub Stats" width="48%" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=avalon-py&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
 </p>
 
-<p align="center">
-<a href="https://stefano-budi.vercel.app">🌐 Portfolio</a> ·
-<a href="https://www.linkedin.com/in/stefano-budi">💼 LinkedIn</a> ·
-<a href="mailto:stefano.budi@binus.ac.id">✉️ Email</a>
-</p>
-
 ---
-
-### 🔭 Currently building
-
-- **F1 Laptime Prediction** — predicting lap times from telemetry data (FastF1), the successor to my earlier Monte Carlo F1 race result predictor.
-- Continuous-training infrastructure for **Speech2Market** (monthly retrain + automated quality gating).
-
-### 🧠 About me
-
-- B.S. Computer Science, Data Science Specialization Track @ BINUS University (2024–2028)
-- Independent study in MIT 15.401 (Finance Theory), Harvard STAT110 (Probability), Stanford CS229 (ML)
-- 2nd author on a published paper on dynamic classifier selection for heterogeneous model pools
-- Passionate about quantitative finance and end-to-end ML systems — from data pipelines to deployment
-
----
-
-### 🚀 Featured projects
-
-**[Speech2Market](https://github.com/avalon-py/speech2market)** — End-to-end NLP pipeline predicting SPX/Gold/VIX moves from Fed speeches
-- FinBERT embeddings → two-stage sign classifier + magnitude regressor (HistGradientBoosting), validated via paired bootstrap testing (n=2,000)
-- Automated daily ETL (GitHub Actions) scraping Fed transcripts, embedding into Supabase, syncing macro/price data
-- Monthly continuous training with automated quality gating and FP16 ONNX deployment under a 1GB memory constraint
-
-**F1 Race Result Predictor** — Monte Carlo race simulation with chaos-weighted XGBoost
-- 75 years of race data, 20+ temporally-masked recency-weighted features to prevent leakage
-- 1,000+ run Monte Carlo layer modeling DNF risk and Safety Car/VSC/Red Flag events
-- Beat the grid baseline by 9.1% MAE on the 2025 held-out season, validated via walk-forward backtesting
-
-**Laptop Price Predictor** — End-to-end ensemble ML deployment
-- Stacking ensemble (XGBoost, LightGBM, CatBoost → RidgeCV meta-learner) tuned via Optuna
-- Self-scraped dataset (BeautifulSoup + Playwright), deployed as a Streamlit app with ~65–75ms P90 latency
-
-**Makan Bergizi Gratis (MBG) Investment Priority Mapping** — Graph-based clustering research
-- Spectral clustering with a Laplacian structure to map investment priority across 38 Indonesian provinces
-- 15+ derived features from raw government data (BPS, Badan Pangan Nasional), filtered via RFECV
-- Validated via Calinski-Harabasz index (3.94 vs. 1.01 random baseline); selected by BINUS's CS faculty as presentation material at PPI BRIDA, presenting to government stakeholders and civil servants
-
----
-
-### 🛠️ Tech stack
-
-**Languages:** Python, SQL, C, Java, R
-
-**ML / Modeling:** Gradient Boosting (XGBoost, LightGBM, CatBoost), Optuna, PCA/LDA, SVM, Temporal Fusion Transformers, Spectral Clustering
-
-**Transfer Learning:** FinBERT, DINOv2, ConvNeXt, ONNX Runtime
-
-**Data & Deployment:** Pandas, BeautifulSoup, Playwright, GitHub Actions, Supabase, Streamlit, AWS, Git
-
----
-
-<p align="center"><i>Open to Data Science / ML Engineer internships.</i></p>
+*✨ Feel free to explore my repositories or reach out via [LinkedIn](https://linkedin.com/in/stefano-budi) for ML/quant collaborations!*
